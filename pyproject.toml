@@ -1,0 +1,30 @@
+[project]
+name = "ErisPulse-Reminder"
+version = "0.1.0"
+description = "提醒模块：/提醒 <时长> <内容> 定时提醒，重启自动恢复"
+readme = "README.md"
+requires-python = ">=3.10"
+authors = [ { name = "wsu2059q" } ]
+license = {text = "MIT"}
+dependencies = []
+
+[project.optional-dependencies]
+test = [
+    "pytest>=7.0",
+    "pytest-asyncio>=0.21",
+    "ErisPulse-Testing",
+]
+
+[project.entry-points."erispulse.module"]
+"Reminder" = "Reminder:Main"
+
+[build-system]
+requires = ["setuptools>=61.0"]
+build-backend = "setuptools.build_meta"
+
+[tool.setuptools]
+packages = ["Reminder"]
+
+[tool.pytest.ini_options]
+asyncio_mode = "auto"
+testpaths = ["tests"]
