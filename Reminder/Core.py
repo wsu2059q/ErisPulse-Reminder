@@ -50,7 +50,7 @@ class Main(BaseModule):
         return ModuleMeta(
             name="Reminder",
             description="提醒模块：/提醒 <时长> <内容> 定时提醒，重启自动恢复",
-            version="0.1.0",
+            version="0.1.2",
             author="ErisPulse-devs",
             group="工具",
             tags=["提醒", "定时", "spawn_later", "ORM"],
