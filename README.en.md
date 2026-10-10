@@ -69,7 +69,7 @@ max_duration = "30d"            # max duration of one reminder
 reminder_prefix = "提醒："       # due message prefix
 list_max = 10                   # max entries per list
 render_card = true              # render lists as image cards
-theme = "auto"                  # card theme (auto/light/dark)
+theme = "doodle"                  # card style (doodle/editorial)
 ```
 
 | Option | Type | Default | Description |
@@ -79,7 +79,7 @@ theme = "auto"                  # card theme (auto/light/dark)
 | `reminder_prefix` | str | `提醒：` | Due message prefix |
 | `list_max` | int | `10` | Max entries per list |
 | `render_card` | bool | `true` | Card rendering |
-| `theme` | str | `auto` | Card theme |
+| `theme` | str | `doodle` | Card style (doodle/editorial) |
 
 ---
 

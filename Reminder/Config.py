@@ -42,12 +42,12 @@ class ReminderConfig(BaseConfig):
         },
     )
     theme: str = field(
-        default="auto",
+        default="doodle",
         metadata={
-            "description": {"i18n": "Reminder.theme", "default": "卡片配色 (auto=按时间自动切深浅色)"},
+            "description": {"i18n": "Reminder.theme", "default": "卡片风格 (doodle/editorial)"},
             "ui": {
                 "widget": "select",
-                "options": ["auto", "light", "dark"],
+                "options": ["doodle", "editorial"],
                 "group": "render",
                 "order": 6,
             },

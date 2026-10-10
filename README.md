@@ -80,7 +80,7 @@ max_duration = "30d"            # 单条提醒最大时长
 reminder_prefix = "提醒："       # 到期消息前缀
 list_max = 10                   # 列表单次展示条数
 render_card = true              # 列表用 Takumi 渲染为卡片
-theme = "auto"                  # 卡片配色 (auto/light/dark)
+theme = "doodle"                  # 卡片风格 (doodle/editorial)
 ```
 
 | 配置项 | 类型 | 默认值 | 说明 |
@@ -90,7 +90,7 @@ theme = "auto"                  # 卡片配色 (auto/light/dark)
 | `reminder_prefix` | str | `提醒：` | 到期消息前缀 |
 | `list_max` | int | `10` | 列表条数 |
 | `render_card` | bool | `true` | 卡片渲染 |
-| `theme` | str | `auto` | 卡片配色 |
+| `theme` | str | `doodle` | 卡片风格 (doodle/editorial) |
 
 ---
 
